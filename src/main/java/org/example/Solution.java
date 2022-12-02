@@ -10,11 +10,17 @@ public class Solution {
 
     public String largestNumber(int[] nums){
 
-       StringBuilder result = new StringBuilder(Arrays.stream(nums)
+       String result = Arrays.stream(nums)
                .mapToObj(x -> String.valueOf(x))
                .sorted((x, y) -> (x + y).compareTo(y + x) * -1)
-               .collect(Collectors.joining()));
+               .collect(Collectors.joining());
 
-        return result.toString();
+       if (result.startsWith("0")){
+
+           return "0";
+       }else{
+
+          return result;
+       }
     }
 }

@@ -29,7 +29,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void TwoNumbers(){
+    public void twoNumbers(){
 
         nums = new  int[] {36, 99};
 
@@ -39,11 +39,21 @@ public class SolutionTest {
     }
 
     @Test
-    public void FiveNumbers(){
+    public void fiveNumbers(){
 
         nums = new  int[] {4,5,3,2,55};
 
         result = "555432";
+
+        assertEquals(result, solution.largestNumber(nums));
+    }
+
+    @Test
+    public void ifMultiplesZerosExpectOnlyOne(){
+
+        nums = new  int[] {0,0,0,0};
+
+        result = "0";
 
         assertEquals(result, solution.largestNumber(nums));
     }

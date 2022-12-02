@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1206dc-e8dd-4398-a538-4f3e166a35a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SolutionTest.FiveNumbers">
+  <component name="RunManager" selected="JUnit.SolutionTest.ifMultiplesZerosExpectOnlyOne">
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LargestNumber" />
       <extension name="coverage">
@@ -79,38 +71,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.TwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LargestNumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SolutionTest" />
-      <option name="METHOD_NAME" value="TwoNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.TwoNumbersAndOnePositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LargestNumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SolutionTest" />
-      <option name="METHOD_NAME" value="TwoNumbersAndOnePositions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest.TwoNumbersa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LargestNumber" />
       <extension name="coverage">
@@ -127,13 +87,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.ifMultiplesZerosExpectOnlyOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LargestNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolutionTest" />
+      <option name="METHOD_NAME" value="ifMultiplesZerosExpectOnlyOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.zerosBeforeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LargestNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolutionTest" />
+      <option name="METHOD_NAME" value="zerosBeforeNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.ifMultiplesZerosExpectOnlyOne" />
+        <item itemvalue="JUnit.SolutionTest.zerosBeforeNumbers" />
         <item itemvalue="JUnit.SolutionTest.FiveNumbers" />
         <item itemvalue="JUnit.SolutionTest.TwoNumbersa" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.TwoNumbers" />
-        <item itemvalue="JUnit.SolutionTest.TwoNumbersAndOnePositions" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669977288104</updated>
-      <workItem from="1669977291461" duration="4909000" />
+      <workItem from="1669977291461" duration="5293000" />
     </task>
     <servers />
   </component>
